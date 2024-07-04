@@ -1,0 +1,32 @@
+{
+  "name": "keyframe-stats",
+  "version": "1.0.1",
+  "description": "A tool for generating keyframe statistics from video files",
+  "main": "index.js",
+  "bin": {
+    "keyframe-stats": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyrza/keyframe-stats.git"
+  },
+  "keywords": [
+    "video",
+    "keyframe",
+    "ffmpeg",
+    "stats"
+  ],
+  "author": "Vyrza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vyrza/keyframe-stats/issues"
+  },
+  "homepage": "https://github.com/vyrza/keyframe-stats#readme",
+  "dependencies": {
+    "ffmpeg-static": "^5.0.0",
+    "ffprobe-static": "^3.0.0"
+  }
+}
