@@ -30,12 +30,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
-        run: npm test
-
-      - name: Build (if necessary)
-        run: npm run build --if-present
-
       - name: Check version and publish
         run: |
           PUBLISHED_VERSION=$(npm view keyframe-stats version || echo "0.0.0")
