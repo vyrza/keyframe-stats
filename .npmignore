@@ -1,4 +1,38 @@
-.git
+# Development files
+.github/
+.git/
 .gitignore
-node_modules
-test
+.npmignore
+
+# Test files
+test/
+*.test.js
+*.spec.js
+
+# Configuration files
+.eslintrc
+.prettierrc
+
+# Build tools
+webpack.config.js
+rollup.config.js
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
